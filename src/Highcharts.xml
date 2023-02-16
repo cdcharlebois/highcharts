@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.highcharts.Highcharts" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Highcharts</name>
+    <description>A wrapper for Highcharts charting library</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <!-- <property key="sampleText" type="string" required="false">
+                <caption>Default value</caption>
+                <description>Sample text input</description>
+            </property> -->
+            <property key="ds" type="datasource" required="true" isList="true">
+              <caption>Data Source</caption>
+              <description></description>
+            </property>
+            <property key="xattr" type="attribute" required="true" dataSource="ds">
+              <caption>X Attribute</caption>
+              <description></description>
+              <attributeTypes>
+                <attributeType name="String" />
+                <attributeType name="Boolean" />
+                <attributeType name="DateTime" />
+                <attributeType name="Decimal" />
+                <attributeType name="Enum" />
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+              </attributeTypes>
+            </property>
+            <property key="yattr" type="attribute" required="true" dataSource="ds">
+              <caption>Y Attribute</caption>
+              <description></description>
+              <attributeTypes>
+                <attributeType name="String" />
+                <attributeType name="Boolean" />
+                <attributeType name="DateTime" />
+                <attributeType name="Decimal" />
+                <attributeType name="Enum" />
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+              </attributeTypes>
+            </property>
+            <systemProperty key="TabIndex"/>
+        </propertyGroup>
+    </properties>
+</widget>
