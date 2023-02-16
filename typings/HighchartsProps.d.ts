@@ -13,8 +13,8 @@ export interface HighchartsContainerProps {
     style?: CSSProperties;
     tabIndex?: number;
     ds: ListValue;
-    xattr: ListAttributeValue<string | boolean | Date | Big>;
-    yattr: ListAttributeValue<string | boolean | Date | Big>;
+    xattr: ListAttributeValue<Big>;
+    yattr: ListAttributeValue<Big>;
 }
 
 export interface HighchartsPreviewProps {

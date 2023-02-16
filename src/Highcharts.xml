@@ -20,11 +20,11 @@
               <caption>X Attribute</caption>
               <description></description>
               <attributeTypes>
-                <attributeType name="String" />
+                <!-- <attributeType name="String" />
                 <attributeType name="Boolean" />
-                <attributeType name="DateTime" />
+                <attributeType name="DateTime" /> -->
                 <attributeType name="Decimal" />
-                <attributeType name="Enum" />
+                <!-- <attributeType name="Enum" /> -->
                 <attributeType name="Integer" />
                 <attributeType name="Long" />
               </attributeTypes>
@@ -33,11 +33,11 @@
               <caption>Y Attribute</caption>
               <description></description>
               <attributeTypes>
-                <attributeType name="String" />
+                <!-- <attributeType name="String" />
                 <attributeType name="Boolean" />
-                <attributeType name="DateTime" />
+                <attributeType name="DateTime" /> -->
                 <attributeType name="Decimal" />
-                <attributeType name="Enum" />
+                <!-- <attributeType name="Enum" /> -->
                 <attributeType name="Integer" />
                 <attributeType name="Long" />
               </attributeTypes>
